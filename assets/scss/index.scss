@@ -1,0 +1,66 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body {
+  background-color: #EAEAEA;
+}
+
+header {
+  width: 100%;
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 85%;
+    margin: 0 auto 40px;
+    padding-top: 80px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 125px;
+    background-color: #F8F8F8;
+
+    .menu-logo {
+      background-color: #F8F8F8;
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      background-color: #F8F8F8;
+      list-style-type: none;
+        li {
+          margin: 0 20px;
+            .main-menu {
+              display: flex;
+              flex-direction: column;
+              background-color: rgba(255,255,255, 0.5);
+              position: absolute;
+              margin: 25px 0 0 -40px;
+              padding: 0;
+              .menu-item {
+                padding: 10px 0;
+                color: rgb(183, 183, 183);
+                  &--active {
+                    border-bottom: 1px solid black;
+                    color: #000;
+                  }
+              }
+            }
+        }
+    }
+    #findinp {
+      padding: 7px 25px;
+      background: url("../images/header/Search Icon.png") no-repeat left 7px center;
+      border: 1px solid #000;
+      outline: none;
+    }
+  }
+}
+
+
