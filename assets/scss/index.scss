@@ -9,56 +9,122 @@ body {
 
 header {
   width: 100%;
+
   .logo {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 250px;
-    width: 85%;
+    width: 75%;
     margin: 0 auto 40px;
     padding-top: 80px;
   }
+
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85%;
+    width: 75%;
     height: 125px;
     background-color: #F8F8F8;
 
     .menu-logo {
       background-color: #F8F8F8;
     }
+
     ul {
       display: flex;
       justify-content: space-between;
       background-color: #F8F8F8;
       list-style-type: none;
-        li {
-          margin: 0 20px;
-            .main-menu {
-              display: flex;
-              flex-direction: column;
-              background-color: rgba(255,255,255, 0.5);
-              position: absolute;
-              margin: 25px 0 0 -40px;
-              padding: 0;
-              .menu-item {
-                padding: 10px 0;
-                color: rgb(183, 183, 183);
-                  &--active {
-                    border-bottom: 1px solid black;
-                    color: #000;
-                  }
-              }
+
+      li {
+        margin: 0 20px;
+        cursor: pointer;
+        font-size: 14px;
+
+        .main-menu {
+          display: flex;
+          flex-direction: column;
+          background-color: rgba(255, 255, 255, 0.5);
+          position: absolute;
+          margin: 25px 0 0 -40px;
+          padding: 0;
+
+          .menu-item {
+            padding: 10px 0;
+            color: rgb(183, 183, 183);
+
+            &--active {
+              border-bottom: 1px solid black;
+              color: #000;
             }
+          }
         }
+      }
     }
+
     #findinp {
       padding: 7px 25px;
       background: url("../images/header/Search Icon.png") no-repeat left 7px center;
       border: 1px solid #000;
       outline: none;
+    }
+  }
+}
+
+main {
+  width: 100%;
+
+  .hero-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    height: 420px;
+    margin: 80px auto;
+    background: url("../images/hero-page/sss.png") no-repeat;
+
+    .page-header {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      height: 80%;
+      margin: 45px 0 0 80px;
+
+      h3 {
+        color: #911026;
+        font-size: 24px;
+        margin: 40px 0 25px;
+      }
+
+      img {
+        width: 52%;
+        margin: 0;
+      }
+
+      p {
+        width: 85%;
+        margin: 0;
+      }
+
+      #btn-get {
+        padding: 7px;
+        border: 1px solid #CACACA;
+        background-color: #F8F8F8;
+        font-size: 11px;
+        margin: 30px 0 15px;
+        width: 25%;
+      }
+    }
+
+    .page-bottom {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-left: 85%;
+      width: 10%;
+      height: 20%;
     }
   }
 }
