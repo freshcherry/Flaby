@@ -1,3 +1,10 @@
+@mixin repice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
 * {
   margin: 0 auto;
   padding: 0 auto;
@@ -82,7 +89,7 @@ main {
     justify-content: space-between;
     width: 75%;
     height: 420px;
-    margin: 80px auto;
+    margin: 40px auto;
     background: url("../images/hero-page/sss.png") no-repeat;
 
     .page-header {
@@ -127,6 +134,141 @@ main {
       height: 20%;
     }
   }
+
+  .repice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    height: 370px;
+    background-color: #fff;
+    margin: 80px auto;
+
+    .repice-wrapper {
+      @include repice;
+
+      .repice-container {
+        display: flex;
+        flex-direction: column;
+        height: 75%;
+        width: 33%;
+        margin: 20px 30px 10px;
+
+        img {
+          width: 95%;
+          height: 85%;
+        }
+
+        .repice-comments {
+          display: flex;
+          flex-direction: column;
+          height: 25%;
+          width: 100%;
+
+          h5 {
+            margin: 10px;
+            font-size: 16px;
+          }
+
+          .comment {
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+
+            img {
+              width: 12px;
+              height: 12px;
+              margin-right: 0;
+            }
+
+            span {
+              font-size: 12px;
+              margin: 0 5px;
+            }
+
+            .view {
+              width: 15px;
+              height: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .repc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 435px;
+    background-color: #fff;
+    margin: 20px auto 100px;
+
+    .photo {
+      width: 45%;
+      height: inherit;
+    }
+
+    .description {
+      width: 55%;
+      height: inherit;
+
+      &-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 20px auto;
+        font-size: 30px;
+        color: #055555;
+      }
+
+      &-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+        margin: 10px auto;
+
+        .icon {
+          display: flex;
+          align-items: center;
+          margin: 5px;
+          width: 35%;
+
+          span {
+            margin: 0 10px;
+          }
+        }
+
+        .description-btn {
+          width: 25%;
+          margin-right: 0;
+
+          #btn-repice {
+            background-color: #fff;
+            padding: 5px 10px;
+            border: 1px solid #cecece;
+          }
+        }
+      }
+
+      &-info {
+        width: 77%;
+        font-size: 16px;
+        margin: 15px auto;
+      }
+    }
+  }
+
+
+
 }
 
+
+//display: flex;
+//justify-content: space-between;
+//align-items: center;
+//width: 100%;
 

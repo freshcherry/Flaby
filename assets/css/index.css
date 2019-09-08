@@ -101,7 +101,7 @@ main .hero-page {
           justify-content: space-between;
   width: 75%;
   height: 420px;
-  margin: 80px auto;
+  margin: 40px auto;
   background: url("../images/hero-page/sss.png") no-repeat;
 }
 main .hero-page .page-header {
@@ -150,6 +150,164 @@ main .hero-page .page-bottom {
   margin-left: 85%;
   width: 10%;
   height: 20%;
+}
+main .repice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+  height: 370px;
+  background-color: #fff;
+  margin: 80px auto;
+}
+main .repice .repice-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+main .repice .repice-wrapper .repice-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 75%;
+  width: 33%;
+  margin: 20px 30px 10px;
+}
+main .repice .repice-wrapper .repice-container img {
+  width: 95%;
+  height: 85%;
+}
+main .repice .repice-wrapper .repice-container .repice-comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 25%;
+  width: 100%;
+}
+main .repice .repice-wrapper .repice-container .repice-comments h5 {
+  margin: 10px;
+  font-size: 16px;
+}
+main .repice .repice-wrapper .repice-container .repice-comments .comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+}
+main .repice .repice-wrapper .repice-container .repice-comments .comment img {
+  width: 12px;
+  height: 12px;
+  margin-right: 0;
+}
+main .repice .repice-wrapper .repice-container .repice-comments .comment span {
+  font-size: 12px;
+  margin: 0 5px;
+}
+main .repice .repice-wrapper .repice-container .repice-comments .comment .view {
+  width: 15px;
+  height: 8px;
+}
+main .repc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+  height: 435px;
+  background-color: #fff;
+  margin: 20px auto 100px;
+}
+main .repc .photo {
+  width: 45%;
+  height: inherit;
+}
+main .repc .description {
+  width: 55%;
+  height: inherit;
+}
+main .repc .description-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  margin: 20px auto;
+  font-size: 30px;
+  color: #055555;
+}
+main .repc .description-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85%;
+  margin: 10px auto;
+}
+main .repc .description-icons .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  width: 35%;
+}
+main .repc .description-icons .icon span {
+  margin: 0 10px;
+}
+main .repc .description-icons .description-btn {
+  width: 25%;
+  margin-right: 0;
+}
+main .repc .description-icons .description-btn #btn-repice {
+  background-color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #cecece;
+}
+main .repc .description-info {
+  width: 77%;
+  font-size: 16px;
+  margin: 15px auto;
 }
 
 /*# sourceMappingURL=index.css.map */
