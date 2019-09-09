@@ -101,7 +101,7 @@ main .hero-page {
           justify-content: space-between;
   width: 75%;
   height: 420px;
-  margin: 40px auto;
+  margin: 80px auto;
   background: url("../images/hero-page/sss.png") no-repeat;
 }
 main .hero-page .page-header {
@@ -308,6 +308,139 @@ main .repc .description-info {
   width: 77%;
   font-size: 16px;
   margin: 15px auto;
+}
+main .notauthor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+  height: 500px;
+  margin: 50px auto 100px;
+}
+main .notauthor .notfound {
+  width: 45%;
+  height: inherit;
+  margin: 0;
+  background: url("../images/404/bg.png") no-repeat;
+}
+main .notauthor .notfound-header {
+  width: 80%;
+  margin: 25px auto 0;
+  border-bottom: 1.5px solid #cecece;
+}
+main .notauthor .notfound-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+  margin: 150px 215px;
+}
+main .notauthor .notfound-description h3 {
+  font-size: 30px;
+  margin: 0 0 15px 0;
+}
+main .notauthor .notfound-description p {
+  text-align: center;
+  font-weight: bold;
+  color: #cecece;
+}
+main .notauthor .notfound-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .notauthor .notfound-btn #btn-back {
+  color: #000;
+  border: 1px solid #cecece;
+  padding: 5px 35px;
+  background-color: #fff;
+}
+main .notauthor .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 45%;
+  height: 486px;
+  background-color: #fff;
+  margin: 12px 0 0 0;
+}
+main .notauthor .author-header {
+  width: 80%;
+  margin: 25px auto 0;
+  border-bottom: 1.5px solid #cecece;
+  margin: 15px auto 0;
+  width: 85%;
+  height: 30px;
+}
+main .notauthor .author-biography {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85%;
+  height: 100px;
+  margin-top: -40px;
+}
+main .notauthor .author-biography .photo {
+  width: 30%;
+  height: 120px;
+}
+main .notauthor .author-biography .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 65%;
+  height: 100px;
+  border-bottom: 1.5px solid #cecece;
+}
+main .notauthor .author-biography .info h3, main .notauthor .author-biography .info span {
+  margin: 5px 0;
+}
+main .notauthor .author-biography .info img {
+  margin-left: 0;
+  margin-top: 10px;
+}
+main .notauthor .author-info {
+  width: 50%;
+  margin: -50px 0 20px 180px;
+  height: 170px;
+}
+main .notauthor .author-info h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+main .notauthor .author-info img {
+  margin: 40px 0 0 100px;
 }
 
 /*# sourceMappingURL=index.css.map */

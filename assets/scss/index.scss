@@ -5,6 +5,12 @@
   width: 100%;
 }
 
+@mixin notFoundAndAuthorHeader {
+  width: 80%;
+  margin: 25px auto 0;
+  border-bottom: 1.5px solid #cecece;
+}
+
 * {
   margin: 0 auto;
   padding: 0 auto;
@@ -89,7 +95,7 @@ main {
     justify-content: space-between;
     width: 75%;
     height: 420px;
-    margin: 40px auto;
+    margin: 80px auto;
     background: url("../images/hero-page/sss.png") no-repeat;
 
     .page-header {
@@ -261,16 +267,132 @@ main {
       }
     }
   }
-  .notauthor {
 
+  .notauthor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 500px;
+    margin: 50px auto 100px;
+
+    .notfound {
+      width: 45%;
+      height: inherit;
+      margin: 0;
+      background: url("../images/404/bg.png") no-repeat;
+
+      &-header {
+        @include notFoundAndAuthorHeader;
+      }
+
+      &-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        margin: 150px 215px;
+
+        h3 {
+          font-size: 30px;
+          margin: 0 0 15px 0;
+        }
+
+        p {
+          text-align: center;
+          font-weight: bold;
+          color: #cecece;
+        }
+      }
+
+      &-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #btn-back {
+          color: #000;
+          border: 1px solid #cecece;
+          padding: 5px 35px;
+          background-color: #fff;
+        }
+      }
+    }
+
+
+    .author {
+      display: flex;
+      //justify-content: space-between;
+      flex-wrap: wrap;
+      width: 45%;
+      height: 486px;
+      background-color: #fff;
+      margin: 12px 0 0 0;
+
+      &-header {
+        @include notFoundAndAuthorHeader;
+        margin: 15px auto 0;
+        width: 85%;
+        height: 30px;
+      }
+
+      &-biography {
+        display: flex;
+        align-items: center;
+        width: 85%;
+        height: 100px;
+        margin-top: -40px;
+
+        .photo {
+          width: 30%;
+          height: 120px;
+        }
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          width: 65%;
+          height: 100px;
+          border-bottom: 1.5px solid #cecece;
+
+          h3, span {
+            margin: 5px 0;
+          }
+
+          img {
+            margin-left: 0;
+            margin-top: 10px;
+          }
+        }
+      }
+      &-info {
+        width: 50%;
+        margin: -50px 0 20px 180px;
+        height: 170px;
+          h4 {
+            font-size: 20px;
+            margin-bottom: 20px;
+          }
+        img {
+          margin: 40px 0 0 100px;
+        }
+      }
+    }
   }
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
 
-
-//display: flex;
-//justify-content: space-between;
-//align-items: center;
-//width: 100%;
 
