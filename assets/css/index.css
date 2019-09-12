@@ -5,6 +5,7 @@
 
 body {
   background-color: #EAEAEA;
+  height: 10000px;
 }
 
 header {
@@ -136,6 +137,7 @@ main .hero-page .page-header #btn-get {
   font-size: 11px;
   margin: 30px 0 15px;
   width: 25%;
+  cursor: pointer;
 }
 main .hero-page .page-bottom {
   display: -webkit-box;
@@ -303,6 +305,7 @@ main .repc .description-icons .description-btn #btn-repice {
   background-color: #fff;
   padding: 5px 10px;
   border: 1px solid #cecece;
+  cursor: pointer;
 }
 main .repc .description-info {
   width: 77%;
@@ -376,6 +379,7 @@ main .notauthor .notfound-btn #btn-back {
   border: 1px solid #cecece;
   padding: 5px 35px;
   background-color: #fff;
+  cursor: pointer;
 }
 main .notauthor .author {
   display: -webkit-box;
@@ -454,7 +458,7 @@ main .sidebar {
       flex-wrap: wrap;
   width: 75%;
   height: 850px;
-  margin: 0 auto 100px;
+  margin: 0 auto 20px;
 }
 main .sidebar .block {
   width: 288px;
@@ -765,6 +769,7 @@ main .sidebar .easy-body .btn-view #btn-view {
   font-size: 11px;
   width: 45%;
   margin: 10px 0 0 130px;
+  cursor: pointer;
 }
 main .sidebar .tags {
   width: 290px;
@@ -875,10 +880,254 @@ main .sidebar .popular .btnandstat #get-it {
   background-color: #F8F8F8;
   font-size: 11px;
   margin: 15px 0;
+  cursor: pointer;
 }
 main .sidebar .popular .btnandstat .stat {
   width: 60%;
   margin: 15px 0 10px 15px;
+}
+main .auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin: 10px auto 50px;
+}
+main .auth .login {
+  width: 45%;
+  height: 400px;
+  background-color: #fff;
+  margin: 0 60px 0 0;
+}
+main .auth .login-header {
+  width: 90%;
+  height: 25px;
+  border-bottom: 1.5px solid #cecece;
+  margin: 20px auto;
+}
+main .auth .login-container {
+  width: 90%;
+}
+main .auth .login-container .container-header {
+  width: 100%;
+  margin: 25px 0 10px;
+}
+main .auth .login-container .container-input {
+  width: 100%;
+}
+main .auth .login-container .container-input .login-inp {
+  padding: 10px 15px;
+  width: 87%;
+  margin: 10px 0;
+}
+main .auth .login-container .check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+  color: #b7b7b7;
+}
+main .auth .login-container .check .checkinp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .auth .login-container .check .checkinp input {
+  margin-right: 5px;
+}
+main .auth .login-container .btn-log {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+}
+main .auth .login-container .btn-log #log-btn {
+  padding: 7px;
+  border: 1px solid #CACACA;
+  background-color: #F8F8F8;
+  font-size: 11px;
+  margin: 30px 0 15px;
+  width: 30%;
+  cursor: pointer;
+}
+main .auth .login-container .log-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px auto;
+}
+main .auth .login-container .log-icon img {
+  margin: 0 15px;
+}
+main .auth .login-container .singin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #b7b7b7;
+}
+main .auth .signup {
+  width: 45%;
+  height: 550px;
+  background-color: #fff;
+  margin: 0 0 0 60px;
+}
+main .auth .signup-header {
+  width: 90%;
+  height: 25px;
+  border-bottom: 1.5px solid #cecece;
+  margin: 20px auto;
+}
+main .auth .signup-container {
+  width: 100%;
+}
+main .auth .signup-container .container-header {
+  width: 90%;
+  margin: 25px auto 15px;
+}
+main .auth .signup-container .container-input {
+  width: 90%;
+}
+main .auth .signup-container .container-input .login-inp {
+  padding: 10px 15px;
+  width: 87%;
+  margin: 10px 0;
+}
+main .auth .signup-container .btn-sign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .auth .signup-container .btn-sign #btn-signin {
+  padding: 7px;
+  border: 1px solid #CACACA;
+  background-color: #F8F8F8;
+  font-size: 11px;
+  margin: 30px 0 15px;
+  width: 30%;
+  cursor: pointer;
+}
+main .auth .signup-container .log-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px auto;
+}
+main .auth .signup-container .log-icon img {
+  margin: 0 15px;
+}
+main .auth .signup-container .loginin {
+  width: 90%;
+  margin: 0 auto;
+  color: #b7b7b7;
+}
+main .post {
+  width: 75%;
+  height: 150px;
+  background-color: #fff;
+}
+main .post-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 45px;
+  margin: 0 auto;
+}
+main .post-header h3, main .post-header p {
+  margin: 0;
+}
+main .post .post-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 70px;
+  background-color: #F6F6F6;
+}
+main .post .post-container .container-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15%;
+  height: 50px;
+}
+main .post .post-container .container-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85%;
+  height: 50px;
+}
+main .post .post-container .container-input input {
+  height: 35px;
+  width: 85%;
+}
+main .post .post-container .container-input button {
+  height: 41px;
+  width: 10%;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
 }
 
 /*# sourceMappingURL=index.css.map */
