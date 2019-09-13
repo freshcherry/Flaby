@@ -5,7 +5,6 @@
 
 body {
   background-color: #EAEAEA;
-  height: 10000px;
 }
 
 header {
@@ -129,6 +128,9 @@ main .hero-page .page-header img {
 main .hero-page .page-header p {
   width: 85%;
   margin: 0;
+}
+main .hero-page .page-header #sss {
+  display: none !important;
 }
 main .hero-page .page-header #btn-get {
   padding: 7px;
@@ -1162,6 +1164,9 @@ footer {
   color: #7D7D7D;
   font-size: 14px;
 }
+footer .footer-logo img:last-child {
+  display: none;
+}
 footer nav .footer-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1176,6 +1181,245 @@ footer nav .footer-menu {
 }
 footer nav .footer-menu li {
   padding: 0 15px;
+}
+
+@media screen and (max-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+    max-width: 320px;
+  }
+
+  body {
+    background-color: #FBFCFD;
+  }
+
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    height: 50px;
+    margin: 20px;
+  }
+  header .logo {
+    width: 30%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  header .logo img {
+    width: 100%;
+    height: 40px;
+  }
+  header nav {
+    width: 40%;
+    height: 50px;
+    margin: 0;
+    background-color: #FBFCFD;
+  }
+  header nav .menu-logo, header nav ul {
+    display: none;
+  }
+  header nav .find input {
+    border: none !important;
+    font-size: 12px;
+  }
+
+  main .hero-page {
+    width: 90%;
+    height: 200px;
+    margin: 20px auto 0;
+  }
+  main .hero-page .page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 100%;
+    height: inherit;
+    margin: 0;
+    background: url("../images/mob/bg1.png");
+  }
+  main .hero-page .page-header #btn-get {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+    background-color: #FBFCFD;
+    border: none;
+  }
+  main .hero-page .page-header img:first-child, main .hero-page .page-header h3, main .hero-page .page-header p {
+    display: none;
+  }
+  main .hero-page .page-bottom {
+    display: none;
+  }
+  main .repice {
+    width: 90%;
+    margin: 0 auto 20px;
+    height: auto;
+    background-color: #FBFCFD;
+  }
+  main .repice-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .repice-wrapper .repice-container {
+    width: 100% !important;
+    height: 200px !important;
+    margin: 25px auto !important;
+    padding: 30px auto;
+  }
+  main .repice-wrapper .repice-container img {
+    width: 100% !important;
+  }
+  main .repice-wrapper .repice-container .repice-comments {
+    width: 90%;
+    margin: 0;
+  }
+  main .repice-wrapper .repice-container .repice-comments h5 {
+    margin: 0;
+  }
+  main .repice-wrapper .repice-container .repice-comments .comment {
+    width: 35%;
+  }
+  main .repc {
+    display: none;
+  }
+  main .notauthor {
+    display: none;
+  }
+  main .sidebar {
+    width: 90%;
+    margin: 50px auto;
+    height: auto;
+  }
+  main .sidebar .block, main .sidebar .target, main .sidebar .tags, main .sidebar .calendar {
+    display: none;
+  }
+  main .sidebar .easy, main .sidebar .popular {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+  main .sidebar .easy-status, main .sidebar .popular-status {
+    width: 90%;
+    margin: 0 auto;
+  }
+  main .sidebar .easy-status h5, main .sidebar .popular-status h5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .sidebar .easy-body, main .sidebar .popular-body {
+    width: 90%;
+    margin: 0 auto;
+  }
+  main .sidebar .easy-body .eazy, main .sidebar .easy-body .middle, main .sidebar .easy-body .long, main .sidebar .popular-body .eazy, main .sidebar .popular-body .middle, main .sidebar .popular-body .long {
+    width: inherit;
+    margin-left: -40px;
+  }
+  main .sidebar .easy-body .btn-view, main .sidebar .popular-body .btn-view {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 30px auto;
+  }
+  main .sidebar .easy-body .btn-view #btn-view, main .sidebar .popular-body .btn-view #btn-view {
+    margin: 0;
+  }
+  main .auth {
+    display: none;
+  }
+  main .post {
+    display: none;
+  }
+  main .pagination {
+    display: none;
+  }
+
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+  }
+  footer .footer-logo {
+    width: 35%;
+  }
+  footer .footer-logo img:last-child {
+    display: block;
+    margin-top: 15px;
+  }
+  footer nav {
+    width: 65%;
+  }
+  footer nav .footer-menu {
+    display: block;
+    text-align: right;
+  }
+  footer nav .footer-menu li {
+    margin: 20px 0;
+  }
+  footer .copyright {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    border-top: 1.5px solid #999;
+  }
+  footer .copyright p {
+    margin: 20px auto;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
