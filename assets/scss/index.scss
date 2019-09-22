@@ -1043,7 +1043,8 @@ footer {
   * {
     margin: 0;
     padding: 0;
-    max-width: 320px;
+    max-width: 320px !important;
+    box-sizing: border-box !important;
   }
 
   body {
@@ -1081,9 +1082,12 @@ footer {
       }
 
       .find {
+        width: 130%;
+        margin-left: -50px;
         input {
           border: none !important;
           font-size: 12px;
+          width: 100%;
         }
       }
     }

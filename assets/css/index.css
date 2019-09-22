@@ -1187,7 +1187,9 @@ footer nav .footer-menu li {
   * {
     margin: 0;
     padding: 0;
-    max-width: 320px;
+    max-width: 320px !important;
+    -webkit-box-sizing: border-box !important;
+            box-sizing: border-box !important;
   }
 
   body {
@@ -1227,9 +1229,14 @@ footer nav .footer-menu li {
   header nav .menu-logo, header nav ul {
     display: none;
   }
+  header nav .find {
+    width: 130%;
+    margin-left: -50px;
+  }
   header nav .find input {
     border: none !important;
     font-size: 12px;
+    width: 100%;
   }
 
   main .hero-page {
